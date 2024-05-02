@@ -1,0 +1,193 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-587300cacabd320caecd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						6,
+						7,
+						8
+					]
+				},
+				{
+					"build" : "Database",
+					"jsonFile" : "directory-Database-Debug-3b7ca4349ccd924e5f58.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "Database",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				},
+				{
+					"build" : "Service",
+					"jsonFile" : "directory-Service-Debug-152f5dcaa3c85dc53e90.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "Service",
+					"targetIndexes" : 
+					[
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Vehicle_Dashboard",
+					"targetIndexes" : 
+					[
+						6,
+						7,
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "Database",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "Service",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "Database::@c2e70d84feb6e889f948",
+					"jsonFile" : "target-Database-Debug-8593a2e36428b94a9158.json",
+					"name" : "Database",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "Database_autogen::@c2e70d84feb6e889f948",
+					"jsonFile" : "target-Database_autogen-Debug-9486862b4d93ad18b72f.json",
+					"name" : "Database_autogen",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "Database_autogen_timestamp_deps::@c2e70d84feb6e889f948",
+					"jsonFile" : "target-Database_autogen_timestamp_deps-Debug-6bf31c584ef203108138.json",
+					"name" : "Database_autogen_timestamp_deps",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Service::@91bc7765fde5a1b73d63",
+					"jsonFile" : "target-Service-Debug-5b354f805555eb82ac87.json",
+					"name" : "Service",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Service_autogen::@91bc7765fde5a1b73d63",
+					"jsonFile" : "target-Service_autogen-Debug-0aa3e540916386641d73.json",
+					"name" : "Service_autogen",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Service_autogen_timestamp_deps::@91bc7765fde5a1b73d63",
+					"jsonFile" : "target-Service_autogen_timestamp_deps-Debug-1ac7b3e44a5abbdb6efc.json",
+					"name" : "Service_autogen_timestamp_deps",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Vehicle_Dashboard::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Vehicle_Dashboard-Debug-f0c2a70baf3a92838e39.json",
+					"name" : "Vehicle_Dashboard",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Vehicle_Dashboard_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Vehicle_Dashboard_autogen-Debug-906fd4b098f0d36c0b20.json",
+					"name" : "Vehicle_Dashboard_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Vehicle_Dashboard_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Vehicle_Dashboard_autogen_timestamp_deps-Debug-3a280cacaca0d0c5d13b.json",
+					"name" : "Vehicle_Dashboard_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/DELTA/GIthub/Learning24/QT/Vehicle_Dashboard/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug",
+		"source" : "D:/DELTA/GIthub/Learning24/QT/Vehicle_Dashboard"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
